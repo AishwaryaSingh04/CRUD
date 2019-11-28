@@ -16,6 +16,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.tableabc { 
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+th, td {
+  width:200px;
+}
 
 .App-link {
   color: #09d3ac;
